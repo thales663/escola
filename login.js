@@ -11,7 +11,7 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
     };
   
     if (usuarios[username] && usuarios[username] === password) {
-      window.location.href = "escola_projeto.html";
+      window.location.href = "editor_de_texto.html";
     } else {
       const msg = document.getElementById("message");
       msg.textContent = "Usuário ou senha incorretos!";
